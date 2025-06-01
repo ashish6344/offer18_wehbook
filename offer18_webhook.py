@@ -28,7 +28,7 @@ def handle_postback():
 
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     data = {
-        "chat_id": "@conversionalert",
+        "chat_id": TELEGRAM_CHANNEL,
         "text": message,
         "parse_mode": "Markdown"
     }

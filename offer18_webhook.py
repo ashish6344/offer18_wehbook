@@ -1,7 +1,7 @@
 from flask import Flask, request
 import requests
 
-app = Flask(Vision11)
+app = Flask("Vision11")
 
 TELEGRAM_BOT_TOKEN = "7800645235:AAHMjePhblo2PYByKjFa3J5qvGbBfaMkdIo"
 TELEGRAM_CHANNEL = "@conversionalert"
